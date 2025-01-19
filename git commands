@@ -1,0 +1,15 @@
+Steps to upload project on github using git 
+
+1. open project & create .gitigore (to ignore files which not to upload like: node_modules, .env)
+2. type command git init 
+3. type command git add . ( to add all files )
+4. type command git status ( to check current status )
+5. type command git commit -m "comments" ( to commit )
+git commit -a --allow-empty-message -m " " (without comment)
+
+6. Create repository on github account and copy https links from code section 
+7. type git  remote add origing < paset link here >
+8. type git remote -v to verify above step
+9. type git push origin main
+
+10.type rm -rf .git (to un initialize git) on gitbash
