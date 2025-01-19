@@ -1,0 +1,13 @@
+incase mongodb service not work : mongod --port 27017 --dbpath "C:\Program Files\MongoDB\Server\8.0\data\db" --logpath="C:\Program Files\MongoDB\Server\8.0\log\mongod.log" --install --serviceName "MongoDB"
+
+// to find port
+netstat -ano | findstr :3000
+
+//to kill port
+taskkill /f /pid (pid number)
+
+//to get software updates from cmd
+winget list terminal
+//to update 
+winget upgrade (id) //update single
+winget upgrade --all // update all sw
