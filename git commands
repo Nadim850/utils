@@ -10,6 +10,7 @@ git commit -a --allow-empty-message -m " " (without comment)
 6. Create repository on github account and copy https links from code section 
 7. type git  remote add origing < paset link here >
 8. type git remote -v to verify above step
-9. type git push origin main
+9. type git branch -m main
+9. type git push -u origin main
 
 10.type rm -rf .git (to un initialize git) on gitbash
